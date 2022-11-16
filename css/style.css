@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -10,6 +12,8 @@
 body{
     width: 100%;
     height: 100vh;
+    font-family: "Poppins", sans-serif;
+    /* background-color: #D6D6D6; */
 }
 
 header{
@@ -48,24 +52,76 @@ address > a{
     display: block;
 }
 
+.resume-c {
+    width: 100%;
+    background-color: #D6D6D6;
+}
+
 .resume {
     max-width: 900px;
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 90px 0px 0px 0px;
+    background-color: #D6D6D6;
 }
 
 .resume > article:nth-child(2){
     flex-basis: 30%;
-    background-color: red;    
+    /* background-color: red;     */
 }
 
-.resume > article > div{
-    width: 200px;
-    height: 200px;
-    background-color: pink;
+.resume > article:not(.social) > div{
+    width: 242px;
+    height: 242px;
+    border-radius: 50%;
+    border: 10px solid #6B6B6B;
+    background-image: url("..\\gato.jpg");
+    background-position: center center;
+}
+
+.resume > article > div > img{
+    width: 100%;
 }
 
 .resume > article:nth-child(3){
     flex-basis: 100%;
+}
+
+.resume > article > h2{
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.resume > article > p{
+    margin: 30px 0px;
+    font-size: 17px;
+}
+
+.resume > article > address > a{
+    width: max-content;
+    padding: 3px 5px;
+    /* background-color: blue; */
+    color: black;
+    font-size: 17px;
+    text-decoration: none;
+}
+
+.resume > article.social{
+    padding: 35px 0px;
+}
+.resume > article.social > div{
+    float: right;
+    width: 252px;
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.resume > article.social > div > a{
+    /* background-color: aqua; */
+    font-size: 40px;
+    color: black;
 }
