@@ -9,6 +9,7 @@
     nav > ul > a li{
         display: block;
     }
+
     header{
         padding: 0;
         height: 0;
@@ -16,8 +17,41 @@
     }
 
     header > label{
-        margin: 10px;
-        font-size: 30px;
+        display: inline;
+        margin: 10px 10px 0 0;
+        font-size: 35px;
         float: right;
+    }
+
+    header > input:checked ~ nav{
+        display: block;
+    }
+
+    .resume {
+        padding: 60px 0px;
+        /* background-color: brown; */
+        justify-content: center;
+        width: 100%;
+    }
+
+    .ctt {
+        order: 1;
+    }
+    .resume > article.social > div{
+        /* background-color: blue; */
+        float: none;
+        margin: 0 auto;
+    }
+    .about-me > img{
+        display: none;
+    }
+    .content-main {
+        padding: 20px;
+        /* background-color: aqua; */
+    }
+
+    .education > div > ul > li, .experiences > div > ul > li {
+        /* background-color: blue; */
+        flex-basis: 100%;
     }
 }

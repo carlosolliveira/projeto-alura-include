@@ -13,8 +13,12 @@ body{
     width: 100%;
     height: 100vh;
     font-family: "Poppins", sans-serif;
-    /* background-color: #D6D6D6; */
+    background-color: red;
     scroll-behavior: smooth;
+}
+
+main {
+    background-color: rebeccapurple;
 }
 
 header{
@@ -95,10 +99,6 @@ address > a{
     border: 10px solid #6B6B6B;
     background-image: url("..\\gato.jpg");
     background-position: center center;
-}
-
-.resume > article > div > img{
-    width: 100%;
 }
 
 .resume > article:nth-child(3){
@@ -229,5 +229,9 @@ footer > p:nth-child(1){
 }
 
 header > input{
+    display: none;
+}
+
+header > label{
     display: none;
 }
