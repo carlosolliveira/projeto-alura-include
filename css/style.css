@@ -227,3 +227,7 @@ footer > p:nth-child(1){
     font-weight: 500;
     margin-bottom: 20px;
 }
+
+header > input{
+    display: none;
+}
