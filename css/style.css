@@ -10,11 +10,11 @@
 }
 
 body{
+    overflow-x: hidden;
     width: 100%;
     height: 100vh;
     font-family: "Poppins", sans-serif;
     /* background-color: red; */
-    scroll-behavior: smooth;
 }
 
 main {
@@ -28,7 +28,7 @@ header{
 
 nav{
     /* background-color: red; */
-    padding: 20px;
+    /* padding: 20px; */
 
 }
 
@@ -41,7 +41,6 @@ nav > ul{
 nav > ul > a > li{
     display: inline;
     /* background-color: aqua; */
-    padding: 5px 15px;
 }
 
 nav > ul > a > li::before{
@@ -55,19 +54,23 @@ nav > ul > a > li::before{
 
 nav > ul > a{
     text-decoration: none;
-    color: rgb(70, 70, 70);
+    color: rgb(92, 92, 92);
     font-weight: 500;
     transition-property: color, background-color;
     transition-timing-function: ease-in;
     transition-duration: 0.3s;
-    padding: 3px;
+    padding: 5px 15px;
     border-radius: 20px;
 }
 
 nav > ul > a:hover{
     color: black;
-    background-color: #4b4b4b80;
 }
+
+header > input {
+    display: none;
+}
+
 address > a{
     display: block;
 }
@@ -164,11 +167,19 @@ address > a{
     padding: 80px 0px 0px 0px;
 }
 
+.content-main > .about-me > div {
+    padding: 0;
+    border: none;
+    outline: none;
+    margin: 0;
+}
+
 .content-main > .about-me > div > h3{
     margin-bottom: 20px;
 }
 
-.content-main > .about-me > img{
+.content-main > .about-me > div > img{
+    border-radius: 5px;
     width: 400px;
 }
 
@@ -177,7 +188,7 @@ address > a{
     border-radius: 5px;
     padding: 10px;
     margin: 0 auto;
-    max-width: 840px;
+    /* max-width: 840px; */
     margin-top: 10px;
 }
 
@@ -206,7 +217,6 @@ address > a{
 .habilidades > div, .interesses > div{
     margin: 0 auto;
     font-size: 40px;
-    max-width: 840px;
 }
 
 footer {
@@ -229,7 +239,7 @@ footer > p:nth-child(1){
 }
 
 header > input{
-    display: none;
+    /* display: none; */
 }
 
 header > label{

@@ -1,4 +1,4 @@
-# Meu Portfólio WEB - Projeto Prático Alura Includes
+# Meu Portfólio WEB - Projeto Prático Alura Include
 
 ### Pronto para iniciar 
 - [x] Organizando a estrutura do projeto
@@ -7,7 +7,7 @@
 - [x] Criando o espaço para o conteúdo principal
 - [x] Criando o rodapé
 - [x] Coloque seu projeto no GitHub
-- [ ] Tornando sua página responsiva
-- [ ] Criando o menu mobile
-- [ ] Criando interações com JavaScript
+- [x] Tornando sua página responsiva
+- [x] Criando o menu mobile
+- [ ] ~~Criando interações com JavaScript~~
 - [x] Publique seu projeto no GitHub Pages

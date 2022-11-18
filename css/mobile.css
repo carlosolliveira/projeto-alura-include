@@ -1,10 +1,14 @@
 @media screen and (max-width:600px) {
-    nav{
-        display: none;
-        position: absolute;
-        width: 100%;
-        background-color: brown;
-    }
+    /* main {
+        padding: 15px;
+    } */
+        nav{
+            margin-top: 65px;
+            display: none;
+            position: absolute;
+            width: 100%;
+            background-color: gray;
+        }
 
     nav > ul > a li{
         display: block;
@@ -42,16 +46,118 @@
         float: none;
         margin: 0 auto;
     }
-    .about-me > img{
+    .about-me > div:nth-child(1){
         display: none;
-    }
-    .content-main {
-        padding: 20px;
-        /* background-color: aqua; */
     }
 
     .education > div > ul > li, .experiences > div > ul > li {
         /* background-color: blue; */
         flex-basis: 100%;
+    }
+
+    .education > h3, .experiences > h3{
+        margin-left: 16px;
+    }
+
+    .education > div, .experiences > div{
+        padding: 5px;
+        margin: 0 auto;
+        width: 90%;
+    }
+
+    .education > div > ul, .experiences > div > ul{
+        display: block;
+    }
+
+    .content-main > article{
+        margin: 0;
+    }
+
+    .content-main > .about-me{
+        /* background-color: red; */
+        padding: 0px 15px;
+    }
+
+    .habilidades, .interesses{
+        margin: 0 auto;
+        padding: 0px 20px;
+        /* background-color: aqua; */
+        /* font-size: 40px; */
+    }
+}
+
+@media screen and (max-width:800px){
+    nav{
+        margin-top: 65px;
+        display: none;
+        position: absolute;
+        width: 100vw;
+        background-color: gray;
+    }
+
+    nav > ul > a li{
+        display: block;
+    }
+
+    header{
+        position: relative;
+        padding: 0;
+        height: 0;
+        margin: 0;
+    }
+
+    header > label{
+        display: inline;
+        margin: 10px 10px 0 0;
+        font-size: 35px;
+        float: right;
+    }
+
+    header > input:checked + nav{
+        display: block;
+    }
+
+    .resume {
+        /* padding: 0px 90px; */
+        /* background-color: brown; */
+        justify-content: space-around;
+        width: 100%;
+    }
+
+    .resume > article.social > div{
+        margin: 0 auto;
+        float: none;
+    }
+
+    .about-me {
+        gap: 10px !important; 
+        justify-content: space-around !important;
+        flex-basis: 40%;
+        /* background-color: red; */
+    }
+
+    .content-main > .about-me{
+        /* background-color: red; */
+        padding: 50px 15px;
+    }
+
+    .habilidades, .interesses{
+        margin: 0 auto;
+        padding: 0px 20px;
+        /* background-color: aqua; */
+        /* font-size: 40px; */
+    }
+}
+
+@media screen and (max-width:700px){
+    .about-me > div:nth-child(1){
+        display: none;
+    }
+
+    .habilidades, .interesses{
+        margin: 0 auto;
+        padding: 0px 20px;
+        /* background-color: aqua; */
+        /* font-size: 40px; */
     }
 }
