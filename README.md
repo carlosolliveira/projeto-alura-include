@@ -1,5 +1,7 @@
 # Meu Portfólio WEB - Projeto Prático Alura Include
 
+[Projeto](projeto.jpg)
+
 ### Pronto para iniciar 
 - [x] Organizando a estrutura do projeto
 - [x] Criando o menu de navegação
